@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">MachineACompose</string>
+
+
+    <string name="washing">Le lavage</string>
+    <string name="washing_description">Les symboles de lavage sont formés d’une cuve représentant le bac de la machine à laver.</string>
+
+    <string name="wash">Lavage classique</string>
+    <string name="wash_description">Programme coton avec lavage, rinçage et essorage.</string>
+    <string name="not_wash">Sans lavage</string>
+    <string name="not_wash_description">Le vêtement ne doit pas être lavé en machine.</string>
+    <string name="hand_wash">Lavage manuel</string>
+    <string name="hand_wash_description">Le vêtement doit être lavé à la main, à une température maximale de 40 °C.</string>
+    <string name="wash30">Lavage 30°C</string>
+    <string name="wash30_description">Température maximale de 30°C pour le lavage en machine</string>
+    <string name="wash40">Lavage 40°C</string>
+    <string name="wash40_description">Température maximale de 40°C pour le lavage en machine</string>
+    <string name="wash50">Lavage 50°C</string>
+    <string name="wash50_description">Température maximale de 50°C pour le lavage en machine</string>
+    <string name="wash60">Lavage 60°C</string>
+    <string name="wash60_description">Température maximale de 60°C pour le lavage en machine</string>
+
+
+    <string name="bleaching">Le blanchiment</string>
+    <string name="bleaching_description">Si vous possédez du linge blanc très sale, vous pouvez être tenté de le blanchir à l’aide de produits chimiques. Les symboles des étiquettes de vêtements et autres textiles vous indiquent quels produits utiliser. Les symboles relatifs au blanchiment du linge ont une forme triangulaire.</string>
+
+    <string name="bleach">Tous type de blanchiment</string>
+    <string name="bleach_description">Tous les types de blanchiment sont autorisés.</string>
+    <string name="bleach_chlorine">Blanchiment à la chlorine</string>
+    <string name="bleach_chlorine_description">Seul le blanchiment à base de chlorine est autorisé.</string>
+    <string name="bleach_non_chlorine">Blanchiment à base d’agents oxygénés</string>
+    <string name="bleach_non_chlorine_description">Seul le blanchiment à base d’agents oxygénés est autorisé.</string>
+    <string name="not_bleach">Blanchiment à éviter</string>
+    <string name="not_bleach_description">Le blanchiment est à proscrire.</string>
+
+
+    <string name="ironing">Le repassage</string>
+    <string name="ironing_description">Si vous possédez du linge blanc très sale, vous pouvez être tenté de le blanchir à l’aide de produits chimiques. Les symboles des étiquettes de vêtements et autres textiles vous indiquent quels produits utiliser. Les symboles relatifs au blanchiment du linge ont une forme triangulaire.</string>
+
+    <string name="iron_low">Repassage à 110 °C</string>
+    <string name="iron_low_description">Repassage à une température maximale de 110 °C</string>
+    <string name="iron_medium">Repassage à 150 °C</string>
+    <string name="iron_medium_description">Repassage à une température maximale de 150 °C</string>
+    <string name="iron_high">Repassage à 200 °C</string>
+    <string name="iron_high_description">Repassage à une température maximale de 200 °C</string>
+    <string name="not_iron">Non repassable</string>
+    <string name="not_iron_description">Le vêtement ne se repasse pas.</string>
+
+
+    <string name="drying">Le séchage</string>
+    <string name="drying_description">Les symboles pour le séchage naturel du linge sont formés de traits qui indiquent l’état ou le positionnement du vêtement.\n Les symboles de lavage sont formés d’une cuve représentant le bac de la machine à laver.</string>
+
+    <string name="dry_thumble_low_temp">Séchage 60 °C max</string>
+    <string name="dry_thumble_low_temp_description">Séchage à 60 °C au maximum.</string>
+    <string name="dry_thumble_normal_temp">Séchage 80 °C max</string>
+    <string name="dry_thumble_normal_temp_description">Séchage à 60 °C au maximum.</string>
+    <string name="not_dry_thumble">Non séchable ne machine</string>
+    <string name="not_dry_thumble_description">Le séchage en machine est interdit.</string>
+    <string name="dry_drip">Séchage sur fil</string>
+    <string name="dry_drip_description">Séchage sur fil après essorage en machine.</string>
+    <string name="dry_drip_in_shade">Séchage sur fil à l’ombre</string>
+    <string name="dry_drip_in_shade_description">Séchage sur fil à l’ombre après essorage en machine.</string>
+    <string name="dry_flat">Séchage à plat</string>
+    <string name="dry_flat_description">Séchage à plat après essorage en machine.</string>
+    <string name="dry_flat_in_shade">Séchage à plat à l’ombre</string>
+    <string name="dry_flat_in_shade_description">Séchage à plat à l’ombre après essorage en machine.</string>
+    <string name="dry_in_shade">Séchage à l’ombre</string>
+    <string name="dry_in_shade_description">Le séchage à l’ombre est conseillé.</string>
+</resources>

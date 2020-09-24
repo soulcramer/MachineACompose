@@ -1,0 +1,1 @@
+/Users/scott/StudioProjects/MachineACompose/buildSrc/build/classes/kotlin/main/BuildConfigs.class:/Users/scott/StudioProjects/MachineACompose/buildSrc/build/classes/kotlin/main/Libraries.class:/Users/scott/StudioProjects/MachineACompose/buildSrc/build/classes/kotlin/main/Modules.class
