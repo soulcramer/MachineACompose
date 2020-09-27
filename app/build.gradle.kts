@@ -105,12 +105,15 @@ android {
 dependencies {
     coreLibraryDesugaring(Libraries.jdkDesugar)
 
+    implementation(project(":data"))
+
     implementation(Kotlin.stdlib.jdk8)
     implementation(KotlinX.coroutines.android)
 
     implementation(AndroidX.appCompat)
     implementation(AndroidX.core.ktx)
     implementation(AndroidX.lifecycle.viewModelKtx)
+    implementation(AndroidX.lifecycle.liveDataKtx)
     implementation(AndroidX.navigation.fragmentKtx)
     implementation(AndroidX.navigation.uiKtx)
     implementation(Google.android.material)
@@ -122,4 +125,7 @@ dependencies {
     implementation(AndroidX.compose.runtime)
     implementation(AndroidX.compose.runtime.liveData)
     implementation(AndroidX.ui.tooling)
+
+    implementation(Libraries.store)
+
 }

@@ -128,6 +128,7 @@ object Libraries {
 //    const val timberKt = "com.github.ajalt:timberkt:_"
     const val androidGradlePlugin = "com.android.tools.build:gradle:4.2.0-alpha12"
     const val jdkDesugar = "com.android.tools:desugar_jdk_libs:_"
+    const val store = "com.dropbox.mobile.store:store4:_"
     const val kotlinVersion = "1.4.10"
     const val commposeVersion = "1.0.0-alpha03"
 

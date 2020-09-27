@@ -1,5 +1,5 @@
 plugins {
-    id("com.android.application")
+    id("com.android.library")
     kotlin("android")
     kotlin("kapt")
 }
@@ -15,7 +15,6 @@ android {
     buildToolsVersion("30.0.2")
 
     defaultConfig {
-        applicationId = "app.soulcramer.machineacompose"
         versionName = "1.0"
 
         minSdkVersion(23)
@@ -64,8 +63,9 @@ dependencies {
 
     implementation(AndroidX.compose.runtime)
 
+    implementation(Libraries.store)
+
     implementation(AndroidX.room.runtime)
-    implementation(AndroidX.room.coroutines)
     implementation(AndroidX.room.ktx)
     kapt(AndroidX.room.compiler)
 }

@@ -1,11 +1,6 @@
 package app.soulcramer.machineacompose.data.room
 
-import androidx.room.Dao
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
-import androidx.room.Update
+import androidx.room.*
 import app.soulcramer.machineacompose.data.Clothe
 import kotlinx.coroutines.flow.Flow
 
@@ -15,7 +10,7 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 abstract class ClotheDao {
     @Query("SELECT * FROM clothes")
-    abstract fun clothes(): Flow<Clothe>
+    abstract fun loadAll(): Flow<List<Clothe>>
 
     @Query("SELECT COUNT(*) FROM clothes")
     abstract suspend fun count(): Int
@@ -30,9 +25,6 @@ abstract class ClotheDao {
     abstract suspend fun insert(entity: Clothe): Long
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    abstract suspend fun insertAll(vararg entity: Clothe)
-
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
     abstract suspend fun insertAll(entities: Collection<Clothe>)
 
     @Update(onConflict = OnConflictStrategy.REPLACE)
@@ -40,4 +32,7 @@ abstract class ClotheDao {
 
     @Delete
     abstract suspend fun delete(entity: Clothe): Int
+
+    @Query("DELETE FROM clothes")
+    abstract suspend fun deleteAll()
 }
